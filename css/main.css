@@ -36,6 +36,14 @@ section{
   margin: 0 auto;
 }
 
+.original{
+  filter: none;
+}
+
+.white-black{
+  filter: grayscale(100%);
+}
+
 .negative-colors{
   filter: invert(.8);
 }
